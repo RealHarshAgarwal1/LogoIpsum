@@ -24,7 +24,7 @@ function SideNav() {
       {
         menuList.map((menu,index)=>(
             <h2 className='p-3 text-lg px-7 text-gray-500 my-2 cursor-pointer hover:bg-gray-900 hover:text-white'
-            key={index}>{menu.name}</h2>
+            key={index}>{}<menu.icon />{menu.name}</h2>
         ))}
     </div>
   );
